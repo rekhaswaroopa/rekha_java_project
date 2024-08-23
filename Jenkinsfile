@@ -17,10 +17,5 @@ pipeline {
                 bat 'mvn test'
             }
         }
-        stage('building job_2') {
-            steps {
-                build 'job_2'
-            }
-        }
     }
 }
